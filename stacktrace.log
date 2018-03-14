@@ -1,0 +1,59 @@
+WARNING in ./node_modules/bundle-loader?lazy&name=file-[name]!./json-files/a.json
+Module parse failed: Unexpected token m in JSON at position 0
+You may need an appropriate loader to handle this file type.
+SyntaxError: Unexpected token m in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at JsonParser.parse (/Users/ephys/Documents/dev/tmp/test-bundle-json/node_modules/webpack/lib/JsonParser.js:15:21)
+    at doBuild.err (/Users/ephys/Documents/dev/tmp/test-bundle-json/node_modules/webpack/lib/NormalModule.js:367:32)
+    at runLoaders (/Users/ephys/Documents/dev/tmp/test-bundle-json/node_modules/webpack/lib/NormalModule.js:264:12)
+    at /Users/ephys/Documents/dev/tmp/test-bundle-json/node_modules/loader-runner/lib/LoaderRunner.js:370:3
+    at iterateNormalLoaders (/Users/ephys/Documents/dev/tmp/test-bundle-json/node_modules/loader-runner/lib/LoaderRunner.js:211:10)
+    at /Users/ephys/Documents/dev/tmp/test-bundle-json/node_modules/loader-runner/lib/LoaderRunner.js:183:6
+    at runSyncOrAsync (/Users/ephys/Documents/dev/tmp/test-bundle-json/node_modules/loader-runner/lib/LoaderRunner.js:130:11)
+    at /Users/ephys/Documents/dev/tmp/test-bundle-json/node_modules/loader-runner/lib/LoaderRunner.js:175:3
+    at loadLoader (/Users/ephys/Documents/dev/tmp/test-bundle-json/node_modules/loader-runner/lib/loadLoader.js:36:3)
+    at iteratePitchingLoaders (/Users/ephys/Documents/dev/tmp/test-bundle-json/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at runLoaders (/Users/ephys/Documents/dev/tmp/test-bundle-json/node_modules/loader-runner/lib/LoaderRunner.js:362:2)
+    at NormalModule.doBuild (/Users/ephys/Documents/dev/tmp/test-bundle-json/node_modules/webpack/lib/NormalModule.js:219:3)
+    at NormalModule.build (/Users/ephys/Documents/dev/tmp/test-bundle-json/node_modules/webpack/lib/NormalModule.js:337:15)
+    at Compilation.buildModule (/Users/ephys/Documents/dev/tmp/test-bundle-json/node_modules/webpack/lib/Compilation.js:346:10)
+    at factory.create (/Users/ephys/Documents/dev/tmp/test-bundle-json/node_modules/webpack/lib/Compilation.js:572:15)
+    at factory (/Users/ephys/Documents/dev/tmp/test-bundle-json/node_modules/webpack/lib/NormalModuleFactory.js:366:6)
+    at hooks.afterResolve.callAsync (/Users/ephys/Documents/dev/tmp/test-bundle-json/node_modules/webpack/lib/NormalModuleFactory.js:143:13)
+    at AsyncSeriesWaterfallHook.eval [as callAsync] (eval at create (/Users/ephys/Documents/dev/tmp/test-bundle-json/node_modules/tapable/lib/HookCodeFactory.js:24:12), <anonymous>:6:1)
+    at resolver (/Users/ephys/Documents/dev/tmp/test-bundle-json/node_modules/webpack/lib/NormalModuleFactory.js:126:29)
+    at process.nextTick (/Users/ephys/Documents/dev/tmp/test-bundle-json/node_modules/webpack/lib/NormalModuleFactory.js:304:9)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+ @ ./json-files sync ./node_modules/bundle-loader?lazy&name=file-[name] ^\.\/.*$
+ @ ./index.js
+
+WARNING in ./node_modules/bundle-loader?lazy&name=file-[name]!./json-files/b.json
+Module parse failed: Unexpected token m in JSON at position 0
+You may need an appropriate loader to handle this file type.
+SyntaxError: Unexpected token m in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at JsonParser.parse (/Users/ephys/Documents/dev/tmp/test-bundle-json/node_modules/webpack/lib/JsonParser.js:15:21)
+    at doBuild.err (/Users/ephys/Documents/dev/tmp/test-bundle-json/node_modules/webpack/lib/NormalModule.js:367:32)
+    at runLoaders (/Users/ephys/Documents/dev/tmp/test-bundle-json/node_modules/webpack/lib/NormalModule.js:264:12)
+    at /Users/ephys/Documents/dev/tmp/test-bundle-json/node_modules/loader-runner/lib/LoaderRunner.js:370:3
+    at iterateNormalLoaders (/Users/ephys/Documents/dev/tmp/test-bundle-json/node_modules/loader-runner/lib/LoaderRunner.js:211:10)
+    at /Users/ephys/Documents/dev/tmp/test-bundle-json/node_modules/loader-runner/lib/LoaderRunner.js:183:6
+    at runSyncOrAsync (/Users/ephys/Documents/dev/tmp/test-bundle-json/node_modules/loader-runner/lib/LoaderRunner.js:130:11)
+    at /Users/ephys/Documents/dev/tmp/test-bundle-json/node_modules/loader-runner/lib/LoaderRunner.js:175:3
+    at loadLoader (/Users/ephys/Documents/dev/tmp/test-bundle-json/node_modules/loader-runner/lib/loadLoader.js:36:3)
+    at iteratePitchingLoaders (/Users/ephys/Documents/dev/tmp/test-bundle-json/node_modules/loader-runner/lib/LoaderRunner.js:169:2)
+    at runLoaders (/Users/ephys/Documents/dev/tmp/test-bundle-json/node_modules/loader-runner/lib/LoaderRunner.js:362:2)
+    at NormalModule.doBuild (/Users/ephys/Documents/dev/tmp/test-bundle-json/node_modules/webpack/lib/NormalModule.js:219:3)
+    at NormalModule.build (/Users/ephys/Documents/dev/tmp/test-bundle-json/node_modules/webpack/lib/NormalModule.js:337:15)
+    at Compilation.buildModule (/Users/ephys/Documents/dev/tmp/test-bundle-json/node_modules/webpack/lib/Compilation.js:346:10)
+    at factory.create (/Users/ephys/Documents/dev/tmp/test-bundle-json/node_modules/webpack/lib/Compilation.js:572:15)
+    at factory (/Users/ephys/Documents/dev/tmp/test-bundle-json/node_modules/webpack/lib/NormalModuleFactory.js:366:6)
+    at hooks.afterResolve.callAsync (/Users/ephys/Documents/dev/tmp/test-bundle-json/node_modules/webpack/lib/NormalModuleFactory.js:143:13)
+    at AsyncSeriesWaterfallHook.eval [as callAsync] (eval at create (/Users/ephys/Documents/dev/tmp/test-bundle-json/node_modules/tapable/lib/HookCodeFactory.js:24:12), <anonymous>:6:1)
+    at resolver (/Users/ephys/Documents/dev/tmp/test-bundle-json/node_modules/webpack/lib/NormalModuleFactory.js:126:29)
+    at process.nextTick (/Users/ephys/Documents/dev/tmp/test-bundle-json/node_modules/webpack/lib/NormalModuleFactory.js:304:9)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+ @ ./json-files sync ./node_modules/bundle-loader?lazy&name=file-[name] ^\.\/.*$
+ @ ./index.js
