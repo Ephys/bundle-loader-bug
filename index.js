@@ -1,0 +1,1 @@
+var jsonLoaders = require.context('bundle-loader?lazy&name=file-[name]!./json-files');
